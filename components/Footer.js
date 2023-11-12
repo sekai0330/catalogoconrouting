@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-import { sansita, vollkorn } from "@/pages"
+import { sansita, vollkorn } from "../pages"
 
 const enlaces = [
     {

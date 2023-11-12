@@ -1,5 +1,5 @@
-import Landing from '@/components/Landing'
-import Shop from '@/components/Shop'
+import Landing from '../components/Landing'
+import Shop from '../components/Shop'
 import { Sansita, Vollkorn, Source_Sans_3 } from 'next/font/google'
 import Head from 'next/head'
 

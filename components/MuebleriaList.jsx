@@ -1,4 +1,4 @@
-import { sansita } from "@/pages";
+import { sansita } from "../pages";
 import Link from "next/link";
 
 export default function MuebleriaList ({ muebleria }) {

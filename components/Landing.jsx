@@ -1,4 +1,4 @@
-import { sansita } from "@/pages"
+import { sansita } from "../pages"
 
 export default function Landing () {
     

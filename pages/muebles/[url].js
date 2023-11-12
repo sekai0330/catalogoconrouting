@@ -1,9 +1,8 @@
-'use client'
-import useFilters from "@/hooks/useFilters";
+import useFilters from "../../hooks/useFilters.jsx";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import { sansita, source } from "..";
-import { IconWhatsapp } from "@/components/Icons";
+import { IconWhatsapp } from "../../components/Icons.jsx";
 
 export default function Page () {
     const router = useRouter()

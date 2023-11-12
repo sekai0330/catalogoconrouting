@@ -1,7 +1,7 @@
 
 import { useId } from "react"
-import useFilters from "@/hooks/useFilters";
-import { sansita } from "@/pages";
+import useFilters from "../hooks/useFilters";
+import { sansita } from "../pages";
 
 export default function Filters () {
     const { filters, setFilters } = useFilters();

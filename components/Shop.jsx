@@ -1,7 +1,7 @@
-import useFilters from "@/hooks/useFilters"
+import useFilters from "../hooks/useFilters"
 import MuebleriaList from "./MuebleriaList"
 import Filters from "./Filters"
-import { vollkorn, sansita } from "@/pages"
+import { vollkorn, sansita } from "../pages"
 
 export default function Shop () {
     const { filteredMuebleria } = useFilters()
