@@ -16,7 +16,7 @@ export default function Page () {
         return <div>Venta no encontrada</div>;
     }
 
-    const whatsappNumber = '75331045';
+    const whatsappNumber = '75331045999';
     const message = `¡Hola! Estoy interesado en el producto "${sale.name}" de la categoria "${sale.category}" del Catalogo Digital.`;
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
