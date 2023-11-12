@@ -1,0 +1,104 @@
+{
+    "muebleria": [
+        {
+            "id": 1,
+            "name": "Sofa gris",
+            "price": 55,
+            "category": "sala",
+            "image": "sofa-gris",
+            "description": "Nam interdum vulputate purus nec blandit. Phasellus congue varius faucibus. Nullam dictum auctor libero non lobortis. Aenean et massa a erat convallis tincidunt eget eget neque. Nullam eu lectus vel mauris aliquam pretium nec at nisi.",
+            "rating":4.92,
+            "url": "sofa-gris"
+        },
+        {
+            "id": 2,
+            "name": "Juego de Sala",
+            "price": 450,
+            "category": "sala",
+            "image": "juego-de-sala",
+            "description": "Nam interdum vulputate purus nec blandit. Phasellus congue varius faucibus. Nullam dictum auctor libero non lobortis. Aenean et massa a erat convallis tincidunt eget eget neque. Nullam eu lectus vel mauris aliquam pretium nec at nisi.",
+            "rating":4.25,
+            "url": "juego-de-sala"
+        },
+        {
+            "id": 3,
+            "name": "Juego de Sala esquinero",
+            "price": 499,
+            "category": "sala",
+            "image": "juego-de-sala-esquinero",
+            "description": "Nam interdum vulputate purus nec blandit. Phasellus congue varius faucibus. Nullam dictum auctor libero non lobortis. Aenean et massa a erat convallis tincidunt eget eget neque. Nullam eu lectus vel mauris aliquam pretium nec at nisi.",
+            "rating":4.45,
+            "url": "juego-de-sala-esquinero"
+        },
+        {
+            "id": 4,
+            "name": "Cama base reforzada",
+            "price": 200,
+            "category": "dormitorios",
+            "image": "cama-base-reforzada",
+            "description": "Nam interdum vulputate purus nec blandit. Phasellus congue varius faucibus. Nullam dictum auctor libero non lobortis. Aenean et massa a erat convallis tincidunt eget eget neque. Nullam eu lectus vel mauris aliquam pretium nec at nisi.",
+            "rating":3.57,
+            "url": "cama-base-reforzada"
+        },
+        {
+            "id": 5,
+            "name": "Ropero Con Seis Puertas",
+            "price": 175,
+            "category": "dormitorios",
+            "image": "ropero-6-puertas",
+            "description": "Nam interdum vulputate purus nec blandit. Phasellus congue varius faucibus. Nullam dictum auctor libero non lobortis. Aenean et massa a erat convallis tincidunt eget eget neque. Nullam eu lectus vel mauris aliquam pretium nec at nisi.",
+            "rating":3.99,
+            "url": "ropero-6-puertas"
+        },
+        {
+            "id": 6,
+            "name": "Ropero con Dos Puertas",
+            "price": 115,
+            "category": "dormitorios",
+            "image": "ropero-2-puertas",
+            "description": "Nam interdum vulputate purus nec blandit. Phasellus congue varius faucibus. Nullam dictum auctor libero non lobortis. Aenean et massa a erat convallis tincidunt eget eget neque. Nullam eu lectus vel mauris aliquam pretium nec at nisi.",
+            "rating":4.95,
+            "url": "ropero-2-puertas"
+        },
+        {
+            "id": 7,
+            "name": "Chinero con 4 puertas",
+            "price": 320,
+            "category": "cocina",
+            "image": "chinero-4-puertas",
+            "description": "Nam interdum vulputate purus nec blandit. Phasellus congue varius faucibus. Nullam dictum auctor libero non lobortis. Aenean et massa a erat convallis tincidunt eget eget neque. Nullam eu lectus vel mauris aliquam pretium nec at nisi.",
+            "rating":4.32,
+            "url": "chinero-4-puertas"
+        },
+        {
+            "id": 8,
+            "name": "Mueble blanco de pared",
+            "price": 56,
+            "category": "cocina",
+            "image": "mueble-de-pared",
+            "description": "Nam interdum vulputate purus nec blandit. Phasellus congue varius faucibus. Nullam dictum auctor libero non lobortis. Aenean et massa a erat convallis tincidunt eget eget neque. Nullam eu lectus vel mauris aliquam pretium nec at nisi.",
+            "rating":4.54,
+            "url": "mueble-de-pared"
+        },
+        {
+            "id": 9,
+            "name": "Mueble Superior Cocina",
+            "price": 100,
+            "category": "cocina",
+            "image": "mueble-superior-cocina",
+            "description": "Nam interdum vulputate purus nec blandit. Phasellus congue varius faucibus. Nullam dictum auctor libero non lobortis. Aenean et massa a erat convallis tincidunt eget eget neque. Nullam eu lectus vel mauris aliquam pretium nec at nisi.",
+            "rating":4.75,
+            "url": "mueble-superior-cocina"
+        },
+        {
+            "id": 10,
+            "name": "Mueble de Baño",
+            "price": 95,
+            "category": "bathroom",
+            "image": "mueble-de-baño",
+            "description": "Nam interdum vulputate purus nec blandit. Phasellus congue varius faucibus. Nullam dictum auctor libero non lobortis. Aenean et massa a erat convallis tincidunt eget eget neque. Nullam eu lectus vel mauris aliquam pretium nec at nisi.",
+            "rating":4.59,
+            "url": "mueble-de-baño"
+        }
+    ]
+}
