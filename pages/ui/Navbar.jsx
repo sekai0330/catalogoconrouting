@@ -36,7 +36,7 @@ const redes = [
   {
       id:2,
       name: "Instagram",
-      link: "https://www.instragram.com/",
+      link: "https://www.instagram.com/",
       image: "instagram"
   },
   {
