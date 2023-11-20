@@ -1,3 +1,4 @@
+'use client'
 import { sansita } from "../pages";
 import Link from "next/link";
 

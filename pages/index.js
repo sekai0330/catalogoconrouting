@@ -1,3 +1,4 @@
+'use client'
 import Landing from '../components/Landing'
 import Shop from '../components/Shop'
 import { Sansita, Vollkorn, Source_Sans_3 } from 'next/font/google'

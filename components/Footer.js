@@ -2,57 +2,63 @@
 import Image from "next/image"
 import { sansita, vollkorn } from "../pages"
 
-const enlaces = [
+const redes = [
     {
         id:1,
-        name: "Tienda",
-        link: "tienda"
+        name: "Facebook",
+        link: "https://www.facebook.com/",
+        image: "facebook"
     },
     {
         id:2,
-        name: "Nosotros",
-        link: "nosotros"
+        name: "Instagram",
+        link: "https://www.instragram.com/",
+        image: "instagram"
     },
     {
         id:3,
-        name: "Contacto",
-        link: "contacto"
-    },
-    {
-        id:4,
-        name: "Nuevo",
-        link: "nuevo"
+        name: "TikTok",
+        link: "https://www.tiktok.com/",
+        image: "tiktok"
     }
 ]
 
 export default function Footer () {
     return (
-        <footer className={`${sansita.className} bg-amber-950`}>
+        <footer className={`${sansita.className} bg-slate-950`}>
             <section className="max-w-screen-xl mx-auto md:w-5/6 px-3 md:px-0 flex flex-col md:text-left text-center md:flex-row items-center md:items-start md:justify-between py-10 space-y-5 md:space-y-0">
                 <div className="flex flex-col items-center md:items-start md:w-1/3">
                     <a href='#inicio' className="flex gap-1 items-center pl-0">
-                        <Image src="/logo.svg" width={35} height={55} alt="Logo EdwinSantos" />
-                        <p className={`${vollkorn.className} text-white text-lg font-black uppercase`}>Muebleria<span className="text-xs capitalize">Shop</span></p>
+                        <Image src="/logo.webp" width={200} height={50} alt="Logo Muebleria" />
                     </a>
                     <p className={`${vollkorn.className} text-white [text-wrap:balance] mt-3`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, aliquam!</p>
                 </div>
                 <div className="flex flex-col">
-                    <h3 className={`${vollkorn.className} text-white text-lg font-black uppercase`}>Navegacion</h3>
-                    <ul className="md:flex flex-col gap-2 text-white mt-2">
-                        {enlaces.map(links => (
-                            <li key={links.id}>
-                                <a href={links.link} className={`${vollkorn.className} hover:text-red-200`}>
-                                    {links.name}
+                    <h3 className={`${vollkorn.className} text-white text-lg font-black uppercase`}>Redes Sociales</h3>
+                    <ul className="md:flex flex-col  gap-2 text-white mt-2 space-y-3">
+                        {redes.map(red => (
+                            <li key={red.id} className="flex items-center justify-center md:justify-start">
+                                <a href={red.link} className="flex items-center gap-1">
+                                    <img src={`/img/${red.image}.svg`} alt={`Logo de ${red.name}`} className="w-5 h-5"/>
+                                    <p className={`${vollkorn.className} text-white`}>{red.name}</p>
                                 </a>
                             </li>
                         ))}
                     </ul>
                 </div>
                 <div className="flex flex-col">
-                    <h3 className={`${vollkorn.className} text-white text-lg font-black uppercase`}>contactos</h3>
+                    <h3 className={`${vollkorn.className} text-white text-lg font-black uppercase`}>Metodos de Pago</h3>
                     <div className={`${vollkorn.className} mt-2`}>
-                        <p className="text-white font-bold">Correo Electronico:</p>
-                        <p className="text-white text-sm">edwin98santos@gmail.com</p>
+                        <p className="text-white font-bold">Transferencias:</p>
+                        <p className="text-white text-sm">Logo Bancos</p>
+                    </div>
+                    <div className={`${vollkorn.className} mt-2`}>
+                        <p className="text-white font-bold">Cryptomonedas:</p>
+                        <p className="text-white text-sm">Logo exchange, chivo wallet</p>
+                    </div>
+                    <div className={`${vollkorn.className} mt-2`}>
+                        <p className="text-white font-bold">Paypal:</p>
+                        <p className="text-white text-sm">Logo Paypal</p>
                     </div>
                 </div>
             </section>

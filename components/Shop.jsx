@@ -1,3 +1,5 @@
+'use client'
+
 import useFilters from "../hooks/useFilters"
 import MuebleriaList from "./MuebleriaList"
 import Filters from "./Filters"

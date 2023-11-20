@@ -1,16 +1,17 @@
+"use client"
 import { Html, Head, Main, NextScript } from 'next/document'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Navbar from './ui/Navbar'
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head />
       <body>
-        <Header />
-        <Main />
-        <NextScript />
-        <Footer />
+          <Navbar />
+          <Main />
+          <NextScript />
+          <Footer />
       </body>
     </Html>
   )

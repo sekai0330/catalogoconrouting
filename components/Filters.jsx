@@ -1,4 +1,4 @@
-
+'use client'
 import { useId } from "react"
 import useFilters from "../hooks/useFilters";
 import { sansita } from "../pages";
