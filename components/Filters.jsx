@@ -23,11 +23,11 @@ export default function Filters () {
     }
 
     return (
-        <section className={`${sansita.className} flex flex-col gap-4 px-3 items-center lg:justify-start`}>
+        <section className={`${sansita.className} flex flex-col gap-4 px-3 items-center lg:justify-start text-white`}>
             <h3 className="uppercase font-bold">Filtrar por:</h3>
-            <div className="flex flex-col w-full gap-2 border p-2 rounded-lg shadow-lg">
+            <div className="flex flex-col w-full gap-2 border border-gray-600 p-2 rounded-lg shadow-lg">
                 <label htmlFor={categoryFilterId} className="font-semibold">Categoria:</label>
-                <select id={categoryFilterId} className=" rounded px-1 border p-1 text-center" onChange={handleChangeCategory}>
+                <select id={categoryFilterId} className="bg-gray-800 rounded px-1 border border-gray-600 p-1 text-center" onChange={handleChangeCategory}>
                     <option value="all">Todos</option>
                     <option value="sala">Sala</option>
                     <option value="dormitorios">Dormitorio</option>
@@ -35,7 +35,7 @@ export default function Filters () {
                     <option value="bathroom">Baño</option>
                 </select>
             </div>
-            <div className="flex flex-col w-full gap-2 border p-2 rounded-lg shadow-lg">
+            <div className="flex flex-col w-full gap-2 border border-gray-600 p-2 rounded-lg shadow-lg">
                 <label htmlFor={minPriceFilterId} className="font-semibold">Precio a partir de:</label>
                 <input 
                     type="range"
@@ -44,7 +44,7 @@ export default function Filters () {
                     max='500'
                     onChange={handleChangeMinPrice}
                     value={filters.minPrice}
-                    className="accent-yellow-700"
+                    className="accent-amber-500"
                 />
                 <span>${filters.minPrice}</span>
             </div>
